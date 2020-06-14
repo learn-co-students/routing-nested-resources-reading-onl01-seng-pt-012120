@@ -1,7 +1,8 @@
 class AuthorsController < ApplicationController
-
-  def show
+ 
+  def post
     @author = Author.find(params[:id])
   end
+
 
 end
